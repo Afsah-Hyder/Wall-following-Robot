@@ -1,1 +1,3 @@
 # Wall-following-Robot
+
+This is my course project for embedded systems. Designing a wall-following robot using Zephyr RTOS. The robot will use sensors, such as ultrasonic or infrared, to detect walls and navigate accordingly.  The robot continuously reads sensor data to calculate the distance from the wall, adjusting its speed or steering to maintain a consistent distance. Zephyr's task scheduling and interrupt handling ensure that sensor readings, motor controls, and navigation algorithms run concurrently, providing real-time responsiveness and ensuring efficient and reliable wall-following behavior.
